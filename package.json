@@ -2,7 +2,7 @@
 	"name": "yuque",
 	"displayName": "YuQueForVSCode",
 	"description": "语雀",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "shoukai",
 	"repository": {
 		"type": "git",
