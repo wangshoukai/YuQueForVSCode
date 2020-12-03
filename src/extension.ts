@@ -40,10 +40,10 @@ export function activate(context: vscode.ExtensionContext) {
 	 
 			);
 			//设置标题前图标
-			// panel.iconPath = {
-			// 	dark: vscode.Uri.file(context.extensionPath + '/Images/iconDark.png'),
-			// 	light: vscode.Uri.file(context.extensionPath + '/Images/iconBlack.png')
-			// };
+			panel.iconPath = {
+				dark: vscode.Uri.file(context.extensionPath + '/assets/icon.png'),
+				light: vscode.Uri.file(context.extensionPath + '/assets/icon.png')
+			};
 	 
 			panel.webview.html = `<!DOCTYPE html>
 								<html lang="en">
